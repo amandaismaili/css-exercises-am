@@ -1,1 +1,15 @@
 /* Add CSS Styling */
+.both {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.both.spec1 {
+    color: white;
+    background-color: black;
+}
+
+.both.spec2 {
+    color: black;
+    background-color: yellow;
+}
