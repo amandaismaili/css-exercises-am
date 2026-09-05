@@ -24,3 +24,32 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.tot-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.all-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 52px;
+  width: 100%;
+}
+
+.first, .second, .third, .fourth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  max-width: 300px;
+}
